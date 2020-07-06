@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Rocket Elevators - Get A Quote</title>
+	<meta name="description" content="" />
+	<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+	<link rel="shortcut icon" type="image/png" href="AdditionalAssets/R2icon.png">
+	<!-- mobile settings -->
+	<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+	<!-- WEB FONTS : use %7C instead of | (pipe) -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700"
+		rel="stylesheet" type="text/css" />
+
+	<!-- CORE CSS -->
+	<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+	<!-- REVOLUTION SLIDER -->
+	<link href="assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css" />
+	<link href="assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
+
+	<!-- THEME CSS -->
+	<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+	<!-- PAGE LEVEL SCRIPTS -->
+	<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/color_scheme/red.css" rel="stylesheet" type="text/css" id="color_scheme" />
+</head>
+
+<body class="smoothscroll enable-animation wide">
+		<!-- wrapper -->
+		<div id="wrapper">
+
+			<div id="header" class="navbar-toggleable-md sticky header-md clearfix">
+
+				<!-- TOP NAV -->
+				<header id="topNav">
+					<div class="container">
+
+						<!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+						<!-- Logo -->
+						<a class="logo float-left" href="rocketElevators.html">
+							<img src="RocketElevator_Assets/R2.png" alt="" />
+						</a>
+
+						<!-- 
+							Top Nav 
+							
+							AVAILABLE CLASSES:
+							submenu-dark = dark sub menu
+						-->
+						<div class="navbar-collapse collapse float-right nav-main-collapse submenu-dark">
+							<nav class="nav-main">
+
+								<!-- 
+									.nav-onepage
+									Required for onepage navigation links
+									
+									Add .external for an external link!
+								-->
+								<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
+									<li class="active"><!-- HOME -->
+										<a href="rocketElevators.html">
+											HOME
+										</a>
+									</li>
+									<li class="dropdown">
+										<a class="dropdown-toggle" href="#">
+											SERVICES
+										</a>
+										<ul class="dropdown-menu">
+												<li><a href="residential_projects.html">RESIDENTIAL</a></li>
+												<li><a href="commercial_projects.html">COMMERCIAL</a></li>
+										</ul>
+									</li>
+									<li><!-- WORK -->
+										<a href="rocketElevators.html#work">
+											PORTFOLIO
+										</a>
+									</li>
+									<li><!-- NEWS -->
+										<a href="rocketElevators.html#news">
+											NEWS
+										</a>
+									</li>
+									<li><!-- CLIENTS -->
+										<a href="rocketElevators.html#clients">
+											CLIENTS
+										</a>
+									</li>
+									<li><!-- CONTACT -->
+										<a href="rocketElevators.html#contact">
+											CONTACT
+										</a>
+									</li>
+
+								</ul>
+
+							</nav>
+						</div>
+
+					</div>
+				</header>
+                <!-- /Top Nav -->
+			 </div>
+
+	<!-- PORTFOLIO -->
+	<section id="work">
+		<div class="container" style="width: auto;">
+
+			<div class="heading-title heading-dotted text-center">
+				<h2>Choose Your Building Type</h2>
+			</div>
+
+			<div id="building" class="text-center" style="margin: 0px; padding: 0px;">
+				<ul class="nav nav-pills mix-filter mb-60">
+					<li data-filter="res" id="resSelect" class="filter"><a href="#">Residential</a></li>
+					<li data-filter="com" id="comSelect" class="filter"><a href="#">Commercial</a></li>
+					<li data-filter="corp" id="corpSelect" class="filter"><a href="#">Corporate</a></li>
+					<li data-filter="hyb" id="hybSelect" class="filter"><a href="#">Hybrid</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="container">
+			<div class="row mix-grid">
+				<div class="card card-default">
+					<div class="card-heading">
+						<h2 class="card-title">Choose your type of building above and fill out the form below!</h2>
+					</div>
+					<div class="card-block">
+						<form id='quoteForm'>
+							<fieldset>
+								<div class="row">
+									<div class="col-md-4 col-sm-6 mix res">
+										<label># of Apartments</label>
+										<input type="number" id="numApt" class="form-control myForm">
+									</div>
+									<div class="col-md-4 col-sm-6 mix res com corp hyb">
+										<label># of Floors</label>
+										<input type="number" id="numFloors" class="form-control myForm">
+									</div>
+									<div class="col-md-4 col-sm-6 mix res com corp hyb">
+										<label># of Basements</label>
+										<input type="number" id="numBase" class="form-control myForm">
+									</div>
+									<div class="col-md-4 col-sm-6 mix com hyb">
+										<label># of Distinct Buisinesses</label>
+										<input type="number" id="numBiz" class="form-control myForm">
+									</div>
+									<div class="col-md-4 col-sm-6 mix com corp hyb">
+										<label># of Parking Spaces</label>
+										<input type="number" id="numPark" class="form-control myForm">
+									</div>
+									<div class="col-md-4 col-sm-6 mix com">
+										<label># of Elevator Cages</label>
+										<input type="number" id="numCage" class="form-control myForm">
+									</div>
+									<div class="col-md-4 col-sm-6 mix corp">
+										<label># of Seperate Tenant Companies</label>
+										<input type="number" id="numTenant" class="form-control myForm">
+									</div>
+									<div class="col-md-4 col-sm-6 mix corp hyb">
+										<label># of Occupants Per Floor</label>
+										<input type="number" id="numOcc" class="form-control myForm">
+									</div>
+									<div class="col-md-4 col-sm-6 mix hyb">
+										<label># of Hours of Activity Daily (max:24) </label>
+										<input type="number" id="numHourly" min="1" max="24" class="form-control myForm">
+									</div>
+									<div class="col-md-12 col-sm-12 mix res com corp hyb">
+										<div class="card-heading">
+											<h2 class="card-title">Choose a service package!</h2>
+										</div>
+										<div class="btn-group btn-group-toggle btn-block" style="padding-bottom: 20px;"data-toggle="buttons">
+											<label class="btn btn-secondary active btn-lg">
+												<input type="radio" name="serviceType" id="standard" autocomplete="off"
+													value="standard"> Standard
+											</label>
+											<label class="btn btn-info btn-lg">
+												<input type="radio" name="serviceType" id="premium" autocomplete="off"
+													value="premium"> Premium
+											</label>
+											<label class="btn btn-warning btn-lg">
+												<input type="radio" name="serviceType" id="excelium" autocomplete="off"
+													value="excelium"> Excelium
+											</label>
+										</div>
+										<div class="row">
+											<div class= 'col-md-2'># of Elevators
+											<input type="text" name="totalElevators" class="form-control" readonly>
+											</div>
+										<div class="col-md-10">Sub-Total
+											<input type="text" name="subtotal" class="form-control" readonly>
+										</div>
+									</div>
+										<div class="row">
+										<div class="col-md-3">Selected Service Type
+											<input type="text" name="typeOfService" class="form-control" readonly>
+										</div>
+										<div class="col-md-9">Installation Cost
+											<input type="text" name="installation" class="form-control" readonly>
+										</div>
+										</div>
+										<div class="row">
+										<div class="col-md-12">Total
+											<input type="text" name="grandtotal" class="form-control" readonly>
+										</div>
+										</div>
+									</div>
+							</fieldset>
+						</form>
+					</div>
+				</div>`
+			</div>
+		</div>
+	</section>
+	<!-- /PORTFOLIO -->
+
+			<!-- FOOTER -->
+			<footer id="footer">
+				<div class="container">
+
+
+					<div class="row">
+
+						<!-- col #1 -->
+						<div class="col-md-8">
+
+							<h3 class="letter-spacing-1">WHY US?</h3>
+
+							<!-- Small Description -->
+							<p>
+								Rocket Elevators is the best in the business when it comes to meeting your elevator needs. With world-class technology and customer support to match. The choice is simple, choose Rocket Elevators today!
+							</p>
+							<h2>(800) 555-1234</h2>
+						</div>
+						<!-- /col #1 -->
+
+						<!-- col #2 -->
+						<div class="col-md-4">
+							<h3 class="letter-spacing-1">KEEP IN TOUCH</h3>
+
+							<!-- Newsletter Form -->
+							<p>Subscribe to Our Newsletter to get Important News & Offers</p>
+
+							<form class="validate" action="php/newsletter.php" method="post" data-success="Subscribed! Thank you!" data-toastr-position="bottom-right">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+									<input type="email" id="email" name="email" class="form-control required" placeholder="Enter your Email">
+									<span class="input-group-btn">
+										<button class="btn btn-success" type="submit">Subscribe</button>
+									</span>
+								</div>
+							</form>
+							<!-- /Newsletter Form -->
+
+
+						</div>
+						<!-- /col #2 -->
+
+					</div>
+
+
+				</div>
+
+				<div class="copyright">
+					<div class="container">
+						<div class="btn-group" role="group" aria-label="Basic example">
+							<button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal">Terms & Conditions</button>
+							<button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal2">Privacy</button>
+						  </div>
+						
+					</div>
+					<div class="container">&copy; All Rights Reserved, ROCKET ELEVATORS LTD</div>
+				</div>
+
+				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+						<div class="modal-body">
+						  <img class= 'img-fluid' src="AdditionalAssets/termsnconditions.jpg">
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+
+				  <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+						<div class="modal-body">
+						  <img class= 'img-fluid' src="AdditionalAssets/privacy.jpg">
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+
+			</footer>
+				<!-- /FOOTER -->
+
+	<!-- SCROLL TO TOP -->
+	<a href="#" id="toTop"></a>
+
+
+	<!-- PRELOADER -->
+	<div id="preloader">
+		<div class="inner">
+			<span class="loader"></span>
+		</div>
+	</div><!-- /PRELOADER -->
+
+
+	<!-- JAVASCRIPT FILES -->
+	<script>
+		var plugin_path = 'assets/plugins/';
+	</script>
+	<script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+	<script src="assets/js/scripts.js"></script>
+	<script src="quote.js"></script>
+
+
+
+	<!-- REVOLUTION SLIDER -->
+	<script src="assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"></script>
+	<script src="assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js"></script>
+	<script src="assets/js/view/demo.revolution_slider.js"></script>
+
+	<!-- PAGELEVEL SCRIPTS -->
+	<script src="assets/js/contact.js"></script>
+</body>
+
+</html>
